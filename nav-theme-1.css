@@ -1,0 +1,25 @@
+.nav-theme-1 {
+    background-color: #87b04a;
+    border-radius: 0;
+}
+
+.nav-theme-1 .nav-toggle:hover,
+.nav-theme-1 .nav-search-toggle:hover,
+.nav-theme-1 a:hover {
+    position: relative;
+}
+
+.nav-theme-1 .nav-toggle:hover::after,
+.nav-theme-1 .nav-search-toggle:hover::after,
+.nav-theme-1 a:hover::after {
+    content: '';
+
+    display: block;
+    width: 100%;
+    height: 4px;
+    background-color: #5e7c36;
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}

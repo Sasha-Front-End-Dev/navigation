@@ -1,0 +1,68 @@
+.nav-theme-4 {
+    background-color: transparent;
+    border-radius: 0;
+}
+
+.nav-theme-4 a:hover {
+    color: #87b04a;
+}
+
+.nav-theme-4 a:hover,
+.nav-theme-4 .nav-toggle:hover,
+.nav-theme-4 .nav-search-toggle:hover {
+    background-color: transparent;
+}
+
+.nav-theme-4 .nav-toggle .ico-burger,
+.nav-theme-4 .nav-toggle .ico-burger::before,
+.nav-theme-4 .nav-toggle .ico-burger::after {
+    background-color: #999;
+}
+
+.nav-theme-4 a {
+    color: #999;
+}
+
+.nav-theme-4 .nav-search-toggle .ico-search {
+    border-color: #999;
+}
+
+.nav-theme-4 .nav-search-toggle .ico-search::after {
+    background-color: #999;
+}
+
+
+.nav-theme-4 .nav-toggle:hover,
+.nav-theme-4 .nav-search-toggle:hover,
+.nav-theme-4 a:hover {
+    position: relative;
+}
+
+.nav-theme-4 .nav-toggle:hover::after,
+.nav-theme-4 .nav-search-toggle:hover::after,
+.nav-theme-4 a:hover::after {
+    content: '';
+
+    display: block;
+    width: 100%;
+    height: 4px;
+    background-color: #87b04a;
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.nav-theme-4 .nav-toggle:hover .ico-burger,
+.nav-theme-4 .nav-toggle:hover .ico-burger::before,
+.nav-theme-4 .nav-toggle:hover .ico-burger::after {
+    background-color: #87b04a;
+}
+
+.nav-theme-4 .nav-search-toggle:hover .ico-search {
+    border-color: #87b04a;
+}
+
+.nav-theme-4 .nav-search-toggle:hover .ico-search::after {
+    background-color: #87b04a;
+}
